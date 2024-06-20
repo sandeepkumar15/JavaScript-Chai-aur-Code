@@ -48,3 +48,29 @@
 // }
 // myFunction(); //Function Call
 
+
+
+//********************* How Memory Works *******************//
+
+//Stack(Primitive),   //Heap(Non-primitive)
+
+let myName = "SandeepKumar";  //primitive hai
+
+let myAnotherName = myName;
+myAnotherName = "Tanya";
+
+console.log(myAnotherName);
+console.log(myName);
+
+
+//Non-Primitive hai
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
