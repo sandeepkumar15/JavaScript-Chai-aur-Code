@@ -1,0 +1,50 @@
+//Data Types
+
+//Primitive Data Types
+
+// 7 types: String, Number, Boolean, null, undefined, symbol, Bigint
+
+
+//Non- Primitive or Reference type
+
+//Array, Object, functions
+
+// const score = 100
+// const scoreValue = 100.3;
+
+// const isloggesIn = false;
+// const outSideTemp = null;
+// let userEmail;
+
+
+//Symbol
+
+// const Id = Symbol('1234');
+// const anotherId = Symbol('1234');
+// console.log(Id == anotherId);
+
+// const bigNumber = 234534567856455686754n;
+
+//Array
+
+// const superHeros = ["Sandeep", "Tanya", "Love"];
+// console.log(superHeros);
+
+//Object
+
+// let myObject = {
+//     Name: "Sandeep",
+//     Age: 24,
+//     Love: "Tanya",
+//     Height: 174,
+// }
+// console.log(myObject);
+
+//Function
+//Storing in a variable
+
+// let myFunction = function(){
+//     console.log("Hello Jee");
+// }
+// myFunction(); //Function Call
+
